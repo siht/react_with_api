@@ -1,0 +1,6 @@
+[submodule "src/php-profile-rest-api"]
+	path = src/php-profile-rest-api
+	url = https://github.com/siht/php-profile-rest-api.git
+[submodule "src/react_frontend"]
+	path = src/react_frontend
+	url = https://github.com/siht/react_frontend.git
