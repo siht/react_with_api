@@ -1,4 +1,6 @@
 FROM node:12.16.3-alpine AS builder
+ARG REACT_APP_API_URL
+ENV REACT_APP_API_URL=${REACT_APP_API_URL:-http://localhost:8088/}
 COPY ./src/react_frontend /app
 WORKDIR /app
 RUN npm i && npm run build
